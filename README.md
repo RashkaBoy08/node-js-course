@@ -62,14 +62,14 @@ Open `http://localhost:3000/docs` to view the Swagger UI.
 
 ## API route groups
 
-| Prefix | Purpose |
-| --- | --- |
-| `/auth` | Authentication |
-| `/users` | User operations |
-| `/posts` | Post operations |
-| `/admin` | Administrative operations |
-| `/upload` | File uploads |
-| `/tasks` | Task management |
+| Prefix    | Purpose                   |
+| --------- | ------------------------- |
+| `/auth`   | Authentication            |
+| `/users`  | User operations           |
+| `/posts`  | Post operations           |
+| `/admin`  | Administrative operations |
+| `/upload` | File uploads              |
+| `/tasks`  | Task management           |
 
 Protected routes require a bearer token in the `Authorization` header:
 
